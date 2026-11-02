@@ -1,0 +1,16 @@
+{
+  "name": "vidora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VIDORA — AI Video Intelligence & Deep Context Engine",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  }
+}
